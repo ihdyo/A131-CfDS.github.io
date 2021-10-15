@@ -32,7 +32,7 @@ Dikumpulin di Github :
 https://github.com/ihdyo/A131-CfDS
 
 Akun Github : 
-Bella : https-vilichabella.github.io
+Bella : https://github.com/vilichabella
 Yodhi : https://github.com/ihdyo
 Wahyu: https://github.com/Stazyu
 Woda: https://github.com/jrwoda
