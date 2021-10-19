@@ -1,0 +1,42 @@
+@media screen and(max-width: 1000px) {
+    .container{
+        width: 600px;
+        height: auto;
+    }
+
+    .heading h2{
+        font-size: 20px;
+        /* margin-left: 35px; */
+    }
+
+    .guide-wrapper{
+        height: 1100px;
+    }
+
+    .guide{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media screen and(max-width: 600px) {
+    .container{
+        width: 400px;
+        height: auto;
+    }
+
+    .heading h2{
+        font-size: 15px;
+        margin-left: 75px;
+    }
+
+    .guide-wrapper{
+        height: 2200px;
+    }
+
+    .guide{
+        width: 100%;
+        
+    }
+}
