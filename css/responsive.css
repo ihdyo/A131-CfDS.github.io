@@ -85,7 +85,7 @@
     /* TESTIMONIAL */
 
     .test {
-        height: 45vh;
+        height: 50vh;
         width: 100vw;
         padding: 0px 30px;
     }
@@ -105,7 +105,7 @@
     }
 
     article .guide-wrapper {
-        height: 1100px;
+        height: 100px;
     }
 
     article .guide {
@@ -118,21 +118,11 @@
 
     /* FOOTER */
     
-    footer .footer_width .logo_putih {
-        width: 200px;
-        height: 200px;
+    footer {
+        width: 100vw;
     }
+    
 
-    footer .sosial-media ul li a {
-        display: inline-block;
-        padding: 10px 10px;
-        text-align: center;
-    }
-
-    footer .sosial-media ul li img {
-        transform: scale(1);
-        display: inline-block;
-    }
 
     /* END OF FOOTER */
 
@@ -147,8 +137,18 @@
 
     /* HEADER */
 
+    header ul {
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    
     header ul li {
-        margin-top: 5px;
+        margin-top: 20px;
+    }
+
+    header ul li a {
+        margin-left: 30px;
     }
 
     /* END OF HEADER */
@@ -158,7 +158,7 @@
 
     .parallax {
         width: auto;
-        height: 30vh;
+        height: 27vh;
     }
     
     /* END OF SECTION */
@@ -172,7 +172,7 @@
 	}
 
     main .destination-wrapper {
-		height: 200vh;
+		height: 300vh;
 	}
 
 	main .destination {
@@ -185,7 +185,7 @@
     /* TESTIMONIAL */
 
     .test {
-        height: 70vh;
+        height: 110vh;
         padding: 0px 30px;
         width: 100vw;
     }
@@ -236,27 +236,13 @@
 
     /* FOOTER */
     
-    footer {
-        padding-left: 100px;
+    footer .about, .contact, .link{
+        width: 100%;
+        margin-bottom: 30px;
     }
-
-    footer .footer_width .logo_putih {
-        width: 150px;
-        height: 150px;
-    }
-
-    footer .footer_width {
-        text-align: center;
-    }
-
-    footer .sosial-media ul li a {
-        display: inline-block;
-        padding: 10px 10px;
-    }
-
-    footer .sosial-media ul li img {
-        transform: scale(1);
-        display: inline-block;
+    
+    footer .footer_info{
+        flex-direction: column;
     }
 
     /* END OF FOOTER */

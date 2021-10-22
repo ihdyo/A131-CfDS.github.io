@@ -166,7 +166,7 @@ main .destination-img img:hover {
 .test {
     background-color: var(--Blue);
     padding: 30px 30px;
-    padding-left: 170px;
+    padding-left: 100px;
 }
 
 .test .testimoni {
@@ -178,6 +178,13 @@ main .destination-img img:hover {
     color: var(--White);
     font-size: 14px;
     justify-content: center;
+    text-align: center;
+}
+
+.test p, .test h2 {
+    padding-left: 50px;
+    color: var(--White);
+    text-align: left;
 }
 
 .test .heading {
@@ -191,13 +198,22 @@ main .destination-img img:hover {
 	color: var(--White);
 }
 
-.test .testi-img {
+.test .testi-vid {
 	position: relative;
 	margin-bottom: 30px;
 }
 
-.test .testi-img img {
-    width: 300px;
+.test .text img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.test .testi-vid iframe {
+    width: 500px;
+    height: 350px;
 	border-radius: 5%;
 }
 
@@ -278,24 +294,8 @@ article .guide-img h4 {
 /* ==================== FOOTER ==================== */
 
 
-footer {
-    width: 100%;
-    background-color: var(--Blue);
-    color:var(--White);
-    position: relative;
-    display: flex;
-    padding-top: 30px;
-    padding-left: 20px;
-}
-
-footer .footer_width .logo_putih {
-    height: 250px;
-    width: 250px;
-}
-
 footer a {
     text-decoration: none;
-    transition: 0.5s;
     color: var(--White);
 }
 
@@ -303,31 +303,88 @@ footer ul, li {
     list-style: none;
 }
 
+footer {
+    background-color: var(--Blue);
+    color:var(--White)
+}
+
 footer .footer_info {
     width: 100%;
-    margin: 0 30px;
+    margin: 0 auto;
     display: flex;
     padding: 30px 0;
 }
 
-footer ul {
-    text-align: left;
+footer .option {
+    font-weight: normal;
+    white-space: nowrap;
+    display: block;
+}
+
+footer .about {
+    margin-left: 50px;
+    padding: 12px 24px;
+    text-align: center;
+}
+
+footer .about img{
+    height: 150px;
+    width: 150px;
+}
+
+footer .link {
+    width: 20%;  
+}
+
+footer .sosial-media {
+    margin-top: 50px;
+}
+
+footer .sosial-media ul {
+    text-align: center;
     display: flex;
 }
 
 footer .sosial-media ul li img {
-    height: 30px;
-    width: 30px;
+    display: inline-block;
+    width: 40px;
+	height: 40px;
+    margin: 0px 15px;
 }
 
-footer .sosial-media ul li a {
-    display: flex;
-	padding: 10px 8px;
-}
-
-footer .sosial-media ul li a:hover {
-    transform: scale(1.125);
+footer .sosial-media ul li img:hover {
+    transform: scale(1.5);
     transition: 0.5s;
+}
+
+footer .link {
+    text-align: center;
+    display: inline-block;
+    margin: 20px 60px;
+    font-size: 18px;
+}
+
+footer .footer_info .other {
+    text-align: center;
+    padding-left: 150px;
+}
+
+footer .other .contact ul {
+    display: flex;
+    margin-top: 30px;
+}
+
+footer .other .contact ul li {
+    padding: 0 20px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+footer .copyrigth {
+    padding: 15px 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 14px;
 }
 
 /* xxxxxxxxxxxxxxxxxxxx END OF FOOTER xxxxxxxxxxxxxxxxxxxx */
