@@ -182,18 +182,9 @@
 
     /* HEADER */
 
-    header ul {
-        margin-left: 0px;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    header ul li {
-        margin-top: 20px;
-    }
-
-    header ul li a {
-        margin-left: 30px;
+    header {
+        display: none;
+        visibility: hidden;
     }
 
     /* END OF HEADER */
@@ -203,7 +194,7 @@
 
     .parallax {
         width: auto;
-        height: 27vh;
+        height: 25vh;
     }
     
     /* END OF SECTION */
@@ -217,7 +208,7 @@
 	}
 
     main .destination-wrapper {
-		height: 300vh;
+		height: 290vh;
 	}
 
 	main .destination {
@@ -230,26 +221,47 @@
     /* TESTIMONIAL */
 
     .test {
-        height: 110vh;
-        padding: 0px 30px;
+        height: 85vh;
         width: 100vw;
+        padding: 0px 30px;
+        text-align: center;
     }
 
-    .test .testi-img {
-        transform: scale(0.75);
+    .test .testi-vid {
+        margin-bottom: 0px;
     }
 
-    .test .testimoni {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        padding: 30px;
+    .test .testi-vid iframe {
+        width: 250px;
+        height: 150px;
+        border-radius: 5%;
+    }
+
+	.test .heading h2 {
+        margin-left: 0px;
+		font-size: 12px;
+	}
+
+    .test p, .test h2 {
+        padding-left: 0px;
+    }
+
+    .test .text h2 {
+        font-size: 12pt;
+    }
+
+    .test .text p {
+        font-size: 9pt;
     }
 
     .test .text {
-        text-align: center;
-        padding: 0px;
-        margin: 0px;
+        text-align: left;
+    }
+
+    .test .text img {
+        margin-left: 10px;
+        transform: scale(0.5);
+        margin-bottom: 10px;
     }
 
     /* END OF TESTIMONIAL */
@@ -268,7 +280,7 @@
     }
 
     article .guide-wrapper {
-        height: 100vh;
+        height: 160vh;
     }
 
     article .guide {
@@ -281,14 +293,30 @@
 
     /* FOOTER */
     
-    footer .about, .contact, .link{
-        width: 100%;
-        margin-bottom: 30px;
+    footer {
+        height: 40vh;
     }
-    
-    footer .footer_info{
-        flex-direction: column;
+
+    footer .other {
+        display: none;
+        visibility: hidden;
     }
+
+    footer .copyright p {
+        display: none;
+        visibility: hidden;
+    }
+
+    footer .sosial-media {
+        margin-top: 10px;
+    }
+
+    footer .sosial-media ul li img {
+        width: 20px;
+        height: 20px;
+        margin: 0px 10px;
+    }
+
 
     /* END OF FOOTER */
 
