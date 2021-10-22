@@ -1,0 +1,266 @@
+/* ==================== PAD ==================== */
+
+@media screen and (max-width: 1000px) {
+
+    /* HEADER */
+
+    header ul {
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header ul li {
+        margin-top: 20px;
+    }
+
+    header ul li a {
+        margin-left: 30px;
+    }
+
+    /* END OF HEADER */
+
+
+    /* SECTION */
+
+    .parallax {
+        width: auto;
+        height: 40vh;
+    }
+
+    #Layer1{
+        object-fit: fill;
+        width: 100vw;
+        height: auto;
+        display: flex;
+    }
+
+    #Layer2{
+        object-fit: fill;
+        width: 100vw;
+        height: auto;
+        display: flex;
+    }
+
+    #Layer3{
+        object-fit: fill;
+        width: 100vw;
+        height: auto;
+        display: flex;
+    }
+
+    #Layer4{
+        object-fit: fill;
+        width: 100vw;
+        height: auto;
+        display: flex;
+    }
+
+    /* END OF SECTION */
+
+
+    /* MAIN */
+    
+    main .container {
+		width: 100vw;
+		height: auto;
+	}
+
+	main .heading h2 {
+		font-size: 20px;
+	}
+
+	main .destination-wrapper {
+		height: 120vh;
+	}
+
+	main .destination {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+
+    /* END OF MAIN */
+
+
+    /* TESTIMONIAL */
+
+    .test {
+        height: 45vh;
+        width: 100vw;
+        padding: 0px 30px;
+    }
+
+    /* END OF TESTIMONIAL */
+
+
+    /* ARTICLE */
+
+    article .container {
+        width: 600px;
+        height: auto;
+    }
+
+    article .heading h2 {
+        font-size: 20px;
+    }
+
+    article .guide-wrapper {
+        height: 1100px;
+    }
+
+    article .guide {
+        width: 50%;
+        margin-bottom: 150px;
+    }
+
+    /* END OF ARTICLE */
+
+
+    /* FOOTER */
+    
+    footer .footer_width .logo_putih {
+        width: 200px;
+        height: 200px;
+    }
+
+    footer .sosial-media ul li a {
+        display: inline-block;
+        padding: 10px 10px;
+        text-align: center;
+    }
+
+    footer .sosial-media ul li img {
+        transform: scale(1);
+        display: inline-block;
+    }
+
+    /* END OF FOOTER */
+
+}
+
+/* xxxxxxxxxxxxxxxxxxxx END OF PAD xxxxxxxxxxxxxxxxxxxx */
+
+
+/* ==================== SMARTPHONE ==================== */
+
+@media screen and (max-width: 600px) {
+
+    /* HEADER */
+
+    header ul li {
+        margin-top: 5px;
+    }
+
+    /* END OF HEADER */
+
+
+    /* SECTION */
+
+    .parallax {
+        width: auto;
+        height: 30vh;
+    }
+    
+    /* END OF SECTION */
+
+
+    /* MAIN */
+
+	main .heading h2 {
+		margin-left: 75px;
+		font-size: 15px;
+	}
+
+    main .destination-wrapper {
+		height: 200vh;
+	}
+
+	main .destination {
+		width: 100%;
+	}
+
+    /* END OF MAIN */
+
+
+    /* TESTIMONIAL */
+
+    .test {
+        height: 70vh;
+        padding: 0px 30px;
+        width: 100vw;
+    }
+
+    .test .testi-img {
+        transform: scale(0.75);
+    }
+
+    .test .testimoni {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .test .text {
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    /* END OF TESTIMONIAL */
+
+
+    /* ARTICLE */
+
+    article .container {
+        width: 400px;
+        height: auto;
+    }
+
+    article .heading h2 {
+        font-size: 15px;
+        margin-left: 75px;
+    }
+
+    article .guide-wrapper {
+        height: 100vh;
+    }
+
+    article .guide {
+        width: 100%;
+        
+    }
+
+    /* END OF ARTICLE */
+
+
+    /* FOOTER */
+    
+    footer {
+        padding-left: 100px;
+    }
+
+    footer .footer_width .logo_putih {
+        width: 150px;
+        height: 150px;
+    }
+
+    footer .footer_width {
+        text-align: center;
+    }
+
+    footer .sosial-media ul li a {
+        display: inline-block;
+        padding: 10px 10px;
+    }
+
+    footer .sosial-media ul li img {
+        transform: scale(1);
+        display: inline-block;
+    }
+
+    /* END OF FOOTER */
+
+}
+
+/* xxxxxxxxxxxxxxxxxxxx END OF SMARTPHONE xxxxxxxxxxxxxxxxxxxx */

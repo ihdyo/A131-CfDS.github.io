@@ -1,0 +1,333 @@
+/* ==================== VARIABLE ==================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+:root {
+
+--White: #FFFFFF;
+--Black: #000000;
+--Orange: #FF7324;
+--Blue: #142B4F;
+
+}
+
+/* xxxxxxxxxxxxxxxxxxxx END OF VARIABLE xxxxxxxxxxxxxxxxxxxx */
+
+
+/* ==================== GENERAL ==================== */
+
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Poppins;
+    overflow-x: hidden;
+}
+
+/* xxxxxxxxxxxxxxxxxxxx END OF GENERAL xxxxxxxxxxxxxxxxxxxx */
+
+
+/* ==================== HEADER ==================== */
+
+header {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+}
+
+header ul li {
+    text-decoration: none;
+    padding: 0px 15px;
+    color: var(--White);
+    font-family: Poppins SemiBold;
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: var(--White);
+    border-radius: 20px;
+}
+
+header ul li a:hover, .active {
+    background-color: var(--Orange);
+    color: var(--White);
+    transition: 0.5s;
+}
+
+/* xxxxxxxxxxxxxxxxxxxx END OF HEADER xxxxxxxxxxxxxxxxxxxx */
+
+
+/* ==================== SECTION ==================== */
+
+.parallax {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+
+section img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 9;
+}
+
+/* xxxxxxxxxxxxxxxxxxxx END OF SECTION xxxxxxxxxxxxxxxxxxxx */
+
+
+/* ==================== MAIN ==================== */
+
+main .destination-wrapper {
+	height: 850px;
+	background-color: var(--White);
+}
+
+main .container {
+	width: 80vw;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+main .heading {
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+main .heading h2 {
+	font-size: 40px;
+	margin-left: 24px;
+	color: var(--Blue);
+}
+
+main .destination {
+	text-align: center;
+	float: left;
+	width: 30%;
+}
+
+main .destination-img {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+main .destination-img img {
+    height: 304px;
+    width: 243px;
+	border-radius: 5%;
+}
+
+main .destination-img p {
+	position: absolute;
+	bottom: 10%;
+	width: 100%;
+	color: var(--White);
+    font-size: 18pt;
+    font-family: Poppins Semibold;
+    user-select: none;
+}
+
+main .destination-img img:hover {
+    transform: scale(1.125);
+    transition: 0.5s;
+}
+
+/* xxxxxxxxxxxxxxxxxxxx END OF MAIN xxxxxxxxxxxxxxxxxxxx */
+
+
+/* ==================== TESTIMONIAL ==================== */
+
+.test {
+    background-color: var(--Blue);
+    padding: 30px 30px;
+    padding-left: 170px;
+}
+
+.test .testimoni {
+    display: flex;
+}
+
+.test .text {
+    padding-left: 50px;
+    color: var(--White);
+    font-size: 14px;
+    justify-content: center;
+}
+
+.test .heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.test .heading h2 {
+	font-size: 40px;
+	margin-left: 24px;
+	color: var(--White);
+}
+
+.test .testi-img {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.test .testi-img img {
+    width: 300px;
+	border-radius: 5%;
+}
+
+/* xxxxxxxxxxxxxxxxxxxx END OF TESTIMONIAL xxxxxxxxxxxxxxxxxxxx */
+
+
+/* ==================== ARTICLE ==================== */
+
+article .container {
+    width: 80vw;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+article .guide-wrapper {
+    height: 700px;
+    padding-bottom: 40px;
+}
+
+article .heading {
+    
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+article .heading h2 {
+    
+    font-size: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: var(--Blue);
+}
+
+article .guide {
+    text-align: center;
+    float: left;
+    width: 30%;
+}
+
+article .guide-img {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+article .guide-img img {
+    width: 200px;
+	height: 200px;
+	border-radius: 20%;
+}
+
+article .guide-img img:hover {
+	transform: scale(1.125);
+    transition: 0.5s;
+}
+
+article .guide-img p {
+    position: absolute;
+    width: 75%;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 12px;
+    justify-content: center;
+}
+
+article .guide-img h4 {
+    font-size: 10px;
+    position: absolute;
+    bottom:10%;
+    width: 100%;
+    color: var(--White);
+    font-size: 14pt;
+    font-family: Poppins Semibold;
+}
+
+/* xxxxxxxxxxxxxxxxxxxx END OF ARTICLE xxxxxxxxxxxxxxxxxxxx */
+
+
+/* ==================== FOOTER ==================== */
+
+
+footer {
+    width: 100%;
+    background-color: var(--Blue);
+    color:var(--White);
+    position: relative;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+footer .footer_width .logo_putih {
+    height: 250px;
+    width: 250px;
+}
+
+footer a {
+    text-decoration: none;
+    transition: 0.5s;
+    color: var(--White);
+}
+
+footer ul, li {
+    list-style: none;
+}
+
+footer .footer_info {
+    width: 100%;
+    margin: 0 30px;
+    display: flex;
+    padding: 30px 0;
+}
+
+footer ul {
+    text-align: left;
+    display: flex;
+}
+
+footer .sosial-media ul li img {
+    height: 30px;
+    width: 30px;
+}
+
+footer .sosial-media ul li a {
+    display: flex;
+	padding: 10px 8px;
+}
+
+footer .sosial-media ul li a:hover {
+    transform: scale(1.125);
+    transition: 0.5s;
+}
+
+/* xxxxxxxxxxxxxxxxxxxx END OF FOOTER xxxxxxxxxxxxxxxxxxxx */
