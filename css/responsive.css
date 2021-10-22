@@ -5,6 +5,7 @@
     /* HEADER */
 
     header ul {
+        margin-top: 70px;
         margin-left: 0px;
         display: flex;
         flex-direction: column;
@@ -85,9 +86,27 @@
     /* TESTIMONIAL */
 
     .test {
-        height: 50vh;
+        height: 90vh;
         width: 100vw;
         padding: 0px 30px;
+        text-align: center;
+    }
+
+    .test .heading h2 {
+        font-size: 20px;
+    }
+
+    .test .testimoni {
+        display: contents;
+    }
+
+    .test .text {
+        text-align: left;
+    }
+
+    .test .text img {
+        margin-left: 50px;
+        transform: scale(0.75);
     }
 
     /* END OF TESTIMONIAL */
@@ -96,7 +115,7 @@
     /* ARTICLE */
 
     article .container {
-        width: 600px;
+        width: 100vw;
         height: auto;
     }
 
@@ -105,7 +124,7 @@
     }
 
     article .guide-wrapper {
-        height: 100px;
+        height: 90vh;
     }
 
     article .guide {
@@ -122,7 +141,33 @@
         width: 100vw;
     }
     
+    footer .sosial-media ul li img {
+        width: 20px;
+        height: 20px;
+        margin: 0px 10px;
+    }
 
+    footer .footer_info .other {
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    footer .link {
+        text-align: center;
+        display: inline;
+        margin: 20px 10px;
+        font-size: 18px;
+    }
+
+    footer .other .contact ul li {
+        padding-left: 5px;
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+
+    footer .sosial-media {
+        margin-top: 10px;
+    }
 
     /* END OF FOOTER */
 
